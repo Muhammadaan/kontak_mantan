@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="com.example.ade.kontak_mantan.DetailKontakActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Lengkap:"
+        android:id="@+id/txvNama"
+        android:layout_marginTop="8dp"
+        android:textSize="20sp"
+        android:textColor="#000"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Example : Pevita Pearce"
+        android:id="@+id/txtNama"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Nomor Telepon:"
+        android:id="@+id/txvNomor"
+        android:textColor="#000"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="081232700320"
+        android:id="@+id/txtNomor"
+        />
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ubah"
+        android:onClick="button_onClick"
+        android:id="@+id/btnUbah"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorPrimaryDark"
+        />
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hapus"
+        android:onClick="button_onClick"
+        android:id="@+id/btnHapus"
+        android:textColor="#ffff"
+        android:background="#ff0000"
+        />
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="kembali"
+        android:onClick="button_onClick"
+        android:id="@+id/btnKembali"
+        android:background="#ffe100"
+        android:textColor="#fff"
+        />
+</LinearLayout>
